@@ -1,0 +1,18 @@
+[project]
+name = "poecile"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nikolay Bayborodin", email = "nbbrdn@gmail.com"},
+]
+dependencies = [
+    "aiogram>=3.13.0",
+    "sqlalchemy>=2.0.35",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
